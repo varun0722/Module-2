@@ -1,40 +1,44 @@
 # Exp.No:2c
-## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - RELATING TWO NUMBERS
+## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - Calculate the Expression (x + 10) + (y + 2) * z 
 
 ---
 
 ### AIM  
-To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
+To create a Python program using a lambda function to calculate the value of the expression:
+(x + 10) + (y + 2) * z
 
 ---
 
 ### ALGORITHM
+1.	Begin the program.
+2.	Use input() to read the values of x, y, and z from the user.
+3.	Convert the inputs to integers.
+4.	Define a lambda function to compute the expression.
+5.	Pass the values to the lambda function and store the result.
+6.	Display the result.
+7.	Terminate the program.
 
-1. Begin the program.  
-2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
-3. Define a lambda function `max` that takes two arguments `x` and `y`.  
-4. The lambda function compares the numbers and prints:
-   - If `x > y`, then it prints: "`num2` is smaller than `num1`".
-   - Otherwise, it prints: "`num1` is smaller than `num2`".
-5. Call the lambda function by passing `num1` and `num2` as arguments.  
-6. Terminate the program.
+
 
 ---
 
 ### PROGRAM
 
 ```
-
+# reg: 212223060200
+# name: Pradeep m
+x=int(input())
+y=int(input())
+z=int(input())
+a=lambda x,y,z: (x+10)+(y+2)*z
+print(a(x,y,z))
 ```
 
 ### OUTPUT
 
-```
+![LAB2 DAY3](https://github.com/user-attachments/assets/19041023-a316-4e34-93ad-68cb81073cdc)
 
-```
 
 ### RESULT
 
-```
-
-```
+Thus, the Python program to calculate the value of the given expression using a lambda function has been implemented and executed successfully.
